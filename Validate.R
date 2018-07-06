@@ -1,5 +1,3 @@
-#!/usr/bin/env Rscript
-
 library(docopt)
 library(DecisionAnalysis)
 
