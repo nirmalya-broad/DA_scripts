@@ -34,6 +34,10 @@ print(paste0("sep: ", sep))
 print(paste0("use_all: ", use_all))
 print(paste0("no_probe_anno: ", no_probe_anno))
 
+if (use_all) {
+    no_probe_anno <- TRUE
+}
+
 lsep <- NA
 if (sep == "comma") {
     lsep = ","
